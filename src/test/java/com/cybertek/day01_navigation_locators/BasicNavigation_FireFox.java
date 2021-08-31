@@ -15,6 +15,11 @@ public class BasicNavigation_FireFox {
         WebDriver driver = new FirefoxDriver();
 
         //navigate to "https://cybertekschool.com
+        driver.get("https://cybertekschool.com");
+
+        System.out.println("About to quit");
+        //quit the browser
+        driver.quit();
 
     }
 }
