@@ -2,6 +2,7 @@ package com.cybertek.day01_navigation_locators;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class BasicNavigation_FireFox {
 
@@ -11,8 +12,9 @@ public class BasicNavigation_FireFox {
         WebDriverManager.firefoxdriver().setup();
 
         //create Webdriver instance using FirefoxDriver object
-        WebDriver 
+        WebDriver driver = new FirefoxDriver();
 
         //navigate to "https://cybertekschool.com
+
     }
 }
