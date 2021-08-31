@@ -22,7 +22,8 @@ public class FindElement {
         searchBox.sendKeys("Selenium");
         //locate the search button and click(or submit)
         WebElement searchBtn = driver.findElement(By.id("ybar-search"));
-        searchBtn.click();
+    //  searchBtn.click();
+        searchBtn.submit(); //only work with button in he form!!
 
         Thread.sleep(5000);
 
