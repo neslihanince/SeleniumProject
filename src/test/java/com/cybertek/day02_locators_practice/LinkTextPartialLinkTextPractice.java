@@ -29,7 +29,7 @@ public class LinkTextPartialLinkTextPractice {
 
         //click on second link
        // driver.findElement(By.linkText("Add/Remove Elements")).click();
-        WebElement addOrRemoveLink = driver.findElement(By.partialLinkText("Add/Remoce"));
+        WebElement addOrRemoveLink = driver.findElement(By.partialLinkText("Add/Remove"));
         addOrRemoveLink.click();
 
         //click on "Home" link go to back to home
