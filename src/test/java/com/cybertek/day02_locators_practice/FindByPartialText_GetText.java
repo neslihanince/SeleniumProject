@@ -26,6 +26,7 @@ public class FindByPartialText_GetText {
 
         //what if I just provide partial link as letter A
         WebElement aLink = driver.findElement(By.partialLinkText("A"));
+        //shortcut : aLink.getText().soutv
         System.out.println("aLink.getText() = " + aLink.getText());
 
         driver.quit();
