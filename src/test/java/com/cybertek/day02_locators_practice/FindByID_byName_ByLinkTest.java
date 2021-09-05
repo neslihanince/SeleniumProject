@@ -13,7 +13,7 @@ public class FindByID_byName_ByLinkTest {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
-        driver.get("hrrps://www.facebook.com/");
+        driver.get("https://www.facebook.com/");
 
         // name : email, pass, login
 
