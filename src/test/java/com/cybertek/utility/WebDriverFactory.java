@@ -21,7 +21,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
             WebDriver driver ;
 
-            switch (browserName){
+            switch (browserName.toLowerCase()){
                 case "chrome" :
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
